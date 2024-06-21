@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    overflow: hidden;
+    background-color: #222;
+}
+
+canvas {
+    width: min(100svw, 100svh);
+    height: min(100svw, 100svh);
+    background-color: #333;
+}
